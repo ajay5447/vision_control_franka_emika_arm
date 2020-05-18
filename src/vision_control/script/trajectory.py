@@ -144,7 +144,7 @@ sess = tf.Session()
 graph = tf.get_default_graph()
 set_session(sess)
 
-model = models.load_model('/home/ajay/catkin_ws/src/Visual-control-of-franka-emika-robot-manipulator/vision_model/model/end_model_1.h5')
+model = models.load_model('/home/ajay/catkin_ws/src/vision_control_ws/src/vision_control/training/model/end_model_1.h5')
 model._make_predict_function()
 
 
